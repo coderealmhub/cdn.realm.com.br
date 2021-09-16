@@ -5,8 +5,11 @@ Realm Github CDN
 
 [jsdelivr](https://www.jsdelivr.com/?docs=gh)
 
-    // load any GitHub release, commit, or branch
+user = coderealmhub <br/>
+repo = cdn <br/>
+file = path_file <br/>
 
-    // note: we recommend using npm for projects that support it
+    https://cdn.jsdelivr.net/gh/coderealmhub/cdn/path_file
 
-    https://cdn.jsdelivr.net/gh/user/repo@version/file
+
+
