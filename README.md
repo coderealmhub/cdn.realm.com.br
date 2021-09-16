@@ -1,0 +1,2 @@
+# cdn
+Realm Github CDN
