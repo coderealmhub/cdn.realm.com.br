@@ -1,0 +1,44 @@
+
+	  {
+  	  "name": "Dom Rico",
+  	  "short_name": "Dom Rico",
+  	  "description": "",
+  	  "start_url": "https://domrico.realm.com.br/",
+  	  "display": "fullscreen",
+  	  "background_color": "#FFFFFF",
+  	  "theme_color": "#FF7C17",
+  	  "orientation": "portrait",
+  	  "url": "https://domrico.realm.com.br/",
+  	  "lang": "pt-BR",
+  	  "scope": "/",
+  	  "icons": [
+  	      {
+    	      "src": "https://domrico.realm.com.br/upload/company/40eef823-cba1-11eb-8b89-fa163e1e8b66/144x144.png",
+    	      "sizes": "144x144",
+    	      "type": "image/png"
+          },
+    	    {
+    	      "src": "https://domrico.realm.com.br/upload/company/40eef823-cba1-11eb-8b89-fa163e1e8b66/192x192.png",
+    	      "sizes": "192x192",
+    	      "type": "image/png",
+    	      "purpose": "any maskable"
+          },
+          {
+              "src": "https://domrico.realm.com.br/upload/company/40eef823-cba1-11eb-8b89-fa163e1e8b66/256x256.png",
+              "sizes": "256x256",
+              "type": "image/png"
+          },
+          {
+              "src": "https://domrico.realm.com.br/upload/company/40eef823-cba1-11eb-8b89-fa163e1e8b66/384x384.png",
+              "sizes": "384x384",
+              "type": "image/png"
+          },
+          {
+              "src": "https://domrico.realm.com.br/upload/company/40eef823-cba1-11eb-8b89-fa163e1e8b66/512x512.png",
+              "sizes": "512x512",
+              "type": "image/png"
+          }
+      ]
+	    
+	  }
+	  
