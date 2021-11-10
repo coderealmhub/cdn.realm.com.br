@@ -107,6 +107,14 @@ body {
     color: #ffffff !important
 }
 
+.text-orange {
+    color: #FF6F00 !important
+}
+
+.text-orange a {
+    color: #FF6F00 !important
+}
+
 .row.proh {
     position: relative;
     overflow-x: hidden;
@@ -2447,7 +2455,7 @@ pre {
 .orange-theme .nav-pills .nav-link.active,
 .orange-theme .nav-pills .show > .nav-link,
 .orange-theme .loader-screen {
-    background-color: #FF6F00;
+    background-color: #ffffff;
 }
 
 .orange-theme .filter,
