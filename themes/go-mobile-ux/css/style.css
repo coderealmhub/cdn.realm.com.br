@@ -2454,7 +2454,11 @@ pre {
 .orange-theme .page-item.active .page-link,
 .orange-theme .nav-pills .nav-link.active,
 .orange-theme .nav-pills .show > .nav-link,
-.orange-theme .loader-screen {
+.orange-theme {
+    background-color: #F27B39;
+}
+
+.loader-screen {
     background-color: #ffffff;
 }
 
