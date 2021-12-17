@@ -142,11 +142,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #1b68ff;
+  color: #F7A63C;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0045ce;
+    color: #F16538;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -7345,7 +7345,7 @@ body {
   -ms-text-size-adjust: 100%; }
 
 a {
-  color: #1b68ff; }
+  color: #F7A63C; }
 
 .h1, .h2, .h3,
 h1, h2, h3 {
