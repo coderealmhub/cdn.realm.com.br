@@ -1,0 +1,44 @@
+
+	  {
+  	  "name": "Space Pizza",
+  	  "short_name": "Space Pizza",
+  	  "description": "",
+  	  "start_url": "https://spacepizza.realm.com.br/",
+  	  "display": "fullscreen",
+  	  "background_color": "#FFFFFF",
+  	  "theme_color": "#FF7C17",
+  	  "orientation": "portrait",
+  	  "url": "https://spacepizza.realm.com.br/",
+  	  "lang": "pt-BR",
+  	  "scope": "/",
+  	  "icons": [
+  	      {
+    	      "src": "https://cdn.realm.com.br/upload/company/05c4ad48-3597-11ec-bd5b-fa163e1e8b66/144x144.png",
+    	      "sizes": "144x144",
+    	      "type": "image/png"
+          },
+    	    {
+    	      "src": "https://cdn.realm.com.br/upload/company/05c4ad48-3597-11ec-bd5b-fa163e1e8b66/192x192.png",
+    	      "sizes": "192x192",
+    	      "type": "image/png",
+    	      "purpose": "any maskable"
+          },
+          {
+              "src": "https://cdn.realm.com.br/upload/company/05c4ad48-3597-11ec-bd5b-fa163e1e8b66/256x256.png",
+              "sizes": "256x256",
+              "type": "image/png"
+          },
+          {
+              "src": "https://cdn.realm.com.br/upload/company/05c4ad48-3597-11ec-bd5b-fa163e1e8b66/384x384.png",
+              "sizes": "384x384",
+              "type": "image/png"
+          },
+          {
+              "src": "https://cdn.realm.com.br/upload/company/05c4ad48-3597-11ec-bd5b-fa163e1e8b66/512x512.png",
+              "sizes": "512x512",
+              "type": "image/png"
+          }
+      ]
+	    
+	  }
+	  
