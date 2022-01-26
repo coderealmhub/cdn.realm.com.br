@@ -56,6 +56,7 @@ $(document).ready(function () {
             $('body, html').addClass('sidemenu-open menuactive');
         }
     });
+
     $('.wrapper').on('click', function () {
 
         if ($('body').hasClass('sidemenu-open') == true) {
@@ -69,16 +70,15 @@ $(document).ready(function () {
 
     /* filter click open filter */
     if ($('body').hasClass('filtermenu-open') == true) {
-        $('.filter-btn').find('i').html('close');
+        //$('.filter-btn').find('i').html('close');
     }
     $('.filter-btn').on('click', function () {
         if ($('body').hasClass('filtermenu-open') == true) {
             $('body').removeClass('filtermenu-open');
-            $(this).find('i').html('filter_list')
-
+            //$(this).find('i').html('filter_list')
         } else {
             $('body').addClass('filtermenu-open');
-            $(this).find('i').html('close')
+            // $(this).find('i').html('close')
         }
     });
 
