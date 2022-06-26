@@ -323,6 +323,38 @@ body {
   z-index: 3;
 }
 
+#hamburgueria {
+  position: relative;
+  z-index: 3;
+  background-image: url(../images/hamburgueria/hamburgueria_banner.jpg);
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
+#restaurante {
+  position: relative;
+  z-index: 3;
+  background-image: url(../images/restaurante/restaurante_banner.jpg);
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
+#confeitaria {
+  position: relative;
+  z-index: 3;
+  background-image: url(../images/confeitaria/confeitaria.jpg);
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
+#pizzaria {
+  position: relative;
+  z-index: 3;
+  background-image: url(../images/pizzaria/pizzaria_banner.jpg);
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
 .bg-fixed,
 .bg-scroll {
   width: 100%;
