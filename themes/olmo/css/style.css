@@ -355,6 +355,14 @@ body {
   margin-bottom: 50px;
 }
 
+#confeccao {
+  position: relative;
+  z-index: 3;
+  background-image: url(../images/confeccao/confeccao_banner.jpg);
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
 .bg-fixed,
 .bg-scroll {
   width: 100%;
