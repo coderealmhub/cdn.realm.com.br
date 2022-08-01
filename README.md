@@ -24,7 +24,10 @@ file = path_file <br/>
 
 ### Image Optimization
 
-### performance Analysis
+### Performance Analysis
+
+- [Pagespeed](https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR)
+- [WebPageTest](https://www.webpagetest.org/)
 
 ### References
 
