@@ -1,7 +1,8 @@
-# cdn
-Realm Github CDN
+# Realm Github CDN
 
-# Used 
+This repository is used to serve static files from the realm.com.br application.
+
+## Used 
 
 [jsdelivr](https://www.jsdelivr.com/?docs=gh)
 
@@ -13,3 +14,18 @@ file = path_file <br/>
 
 
 
+## Optimization
+
+### Decrease file size
+
+- [UglifyJS 3](https://www.npmjs.com/package/uglify-js)
+
+- [Gulp](https://gulpjs.com/)
+
+### Image Optimization
+
+### performance Analysis
+
+### References
+
+- [Performance Web: Otimizando o front-end](https://www.linkedin.com/pulse/performance-web-otimizando-o-front-end-rodrigo-azevedo-da-costa/?originalSubdomain=pt)

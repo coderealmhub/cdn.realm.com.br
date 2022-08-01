@@ -2435,7 +2435,7 @@ pre {
     background-image: -webkit-radial-gradient(center, ellipse cover, rgba(250, 250, 250, 1) 0%, #ebe2f4 100%);
     background-image: -o-radial-gradient(center, ellipse cover, rgba(250, 250, 250, 1) 0%, #fefefe 100%);
     background-image: -ms-radial-gradient(center, ellipse cover, rgba(250, 250, 250, 1) 0%, #fefefe 100%);
-    background-image: radial-gradient(ellipse at center, rgba(250, 250, 250, 1) 0%, #E3EAF1 100%);
+    background-image: radial-gradient(ellipse at center, rgba(250, 250, 250, 1) 0%, #F6F6F6 100%);
     background-attachment: inherit;
     background-position: center top;
     background-size: 100% 100%;
