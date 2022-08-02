@@ -14,9 +14,9 @@ npm install -g gulp
 
 https://www.toptal.com/developers/cssminifier
 
-### Tools
+https://www.toptal.com/developers/javascript-minifier
 
-https://www.cleancss.com/
+### Tools
 
 https://www.cleancss.com/
 
