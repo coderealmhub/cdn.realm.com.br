@@ -2,9 +2,23 @@
 
 ## Decrease file size
 
-- [UglifyJS 3](https://www.npmjs.com/package/uglify-js)
+### [UglifyJS 3](https://www.npmjs.com/package/uglify-js)
 
-- [Gulp](https://gulpjs.com/)
+### [Gulp](https://gulpjs.com/)
+
+```bash
+npm install -g gulp
+```
+
+### Online
+
+https://www.toptal.com/developers/cssminifier
+
+### Tools
+
+https://www.cleancss.com/
+
+https://www.cleancss.com/
 
 ## Image Optimization
 
