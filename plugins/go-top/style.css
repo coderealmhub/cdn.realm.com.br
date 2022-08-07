@@ -1,11 +1,11 @@
 .go-top {
     position: fixed;
-    bottom: 2em;
+    bottom: 16em;
     right: 2em;
     text-decoration: none;
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
-    font-size: 12px;
+    font-size: 4px;
     padding: 1em;
     display: none;
     border-radius: 40%;

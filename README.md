@@ -2,9 +2,12 @@
 
 This repository is used to serve static files from the realm.com.br application.
 
-# Docs
+## Docs
 
 See files dir docs.
 
 
 
+## Minifier
+
+https://www.toptal.com/developers/javascript-minifier
