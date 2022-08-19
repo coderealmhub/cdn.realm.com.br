@@ -11,3 +11,5 @@ See files dir docs.
 ## Minifier
 
 https://www.toptal.com/developers/javascript-minifier
+
+https://www.toptal.com/developers/cssminifier
