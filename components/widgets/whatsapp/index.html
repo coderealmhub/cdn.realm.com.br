@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Multiple Whatsapp Chat Widget - By Dunia Blanter</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+  <div id='whatsapp-chat' class='hide'>
+    <div class='header-chat'>
+      <div class='head-home'>
+        <h3>Olá!</h3>
+        <p>Te ajudamos no WhatsApp ou nos envie um email para help@realm.com.br</p>
+      </div>
+      <div class='get-new hide'>
+        <div id='get-label'></div>
+        <div id='get-nama'></div>
+      </div>
+    </div>
+    <div class='home-chat'>
+      <!-- Info Contact Start -->
+      <a class='informasi' href='javascript:void' title='Chat Whatsapp'>
+        <div class='info-avatar'><img
+            src='https://cdn.jsdelivr.net/gh/coderealmhub/cdn.realm.com.br/themes/olmo/images/elias.jpg' />
+        </div>
+        <div class='info-chat'>
+          <span class='chat-label'>Suporte</span>
+          <span class='chat-nama'>Elias Neto</span>
+        </div><span class='my-number'>5588992064440</span>
+      </a>
+      <!-- Info Contact End -->
+      <!-- Info Contact Start -->
+      <a class='informasi' href='javascript:void' title='Chat Whatsapp'>
+        <div class='info-avatar'><img
+            src='https://cdn.jsdelivr.net/gh/coderealmhub/cdn.realm.com.br/themes/olmo/images/fasr.png' />
+        </div>
+        <div class='info-chat'>
+          <span class='chat-label'>Suporte</span>
+          <span class='chat-nama'>Francisco Rodrigues</span>
+        </div><span class='my-number'>55889819229433</span>
+      </a>
+      <!-- Info Contact End -->
+      <div class='blanter-msg'>Atendimento 24h/7d</i></div>
+    </div>
+    <div class='start-chat hide'>
+      <div class='first-msg'><span>Olá! Como posso ajudar?</span></div>
+      <div class='blanter-msg'><textarea id='chat-input' placeholder='Escreva aqui.' row='1'></textarea>
+        <a href='javascript:void;' id='send-it'>Enviar</a>
+      </div>
+    </div>
+    <div id='get-number'></div><a class='close-chat' href='javascript:void'>×</a>
+  </div>
+  <a class='blantershow-chat' href='javascript:void' title='Show Chat'><i class='fab fa-whatsapp'></i>Ajuda?</a>
+
+  <!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
