@@ -154,7 +154,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/Y9hzSg47x68'				
+							src: 'https://www.youtube.com/embed/_ezsvwaKnuM'				
 								}
 							}
 						}		  		  
