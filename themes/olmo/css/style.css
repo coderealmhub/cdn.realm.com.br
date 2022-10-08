@@ -2791,10 +2791,10 @@ p.terms-txt a,
   padding-bottom: 100px;
 }
 
-#clinicas {
+#business-intelligence {
   position: relative;
   z-index: 3;
-  background-image: url(../images/clinicas/clinica-banner.jpg);
+  background-image: url(../images/bi/bg-bi.jpg);
   padding-top: 140px;
   padding-bottom: 100px;
 }
