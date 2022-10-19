@@ -26,12 +26,13 @@ html {
 } 
 
 body {
-  /*font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   color: #6c757d;
   line-height: 1.6666;
   font-weight: 400;
 }
+
 
 .container {
   position: relative;
