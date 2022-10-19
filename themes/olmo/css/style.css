@@ -26,8 +26,8 @@ html {
 } 
 
 body {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /*font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  /*font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #6c757d;
   line-height: 1.6666;
   font-weight: 400;
@@ -511,8 +511,7 @@ hr.divider {
 
 h1, h2, h3, h4, h5, h6 {  
   color: #2f353e;
-  /*font-family: 'Poppins', sans-serif;*/
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   letter-spacing: -0.75px;
 }
