@@ -4652,6 +4652,24 @@
   .terms-box { margin-bottom: 20px; }
   .terms-box h5 { margin-bottom: 15px; }
 
+   /* Projects */
+   .more-projects { margin-top: 60px; }
+     /* Projects */
+  #projects-2 { padding-bottom: 40px; }
+  #projects-2 .masonry-image { margin-bottom: 40px; }
+  #projects-1 .project-txt, #projects-2 .project-txt { padding: 0; }
+  #projects-2 .more-btn.mt-20 { margin-top: 0; }
+  .rtl-direction .projects-section .more-btn { margin-top: 0; }
+
+  .rtl-direction #projects-1 .project-txt, .rtl-direction #projects-2 .project-txt { padding-left: 0;padding-right: 0; }
+
+  .single-project .project-title { margin-bottom: 40px; }
+  .project-title h2 { padding-right: 0; padding-bottom: 25px; margin-bottom: 30px; }
+  .project-data span { margin-right: 10px; }
+
+  .project-image.top-img { margin-bottom: 30px; }
+  .more-projects { margin-top: 50px; }
+
   /* Scroll To Top */
   #scrollUp { width: 36px; height: 36px; bottom: 20px; right: 10px; }
 
