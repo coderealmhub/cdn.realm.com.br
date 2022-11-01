@@ -3165,6 +3165,20 @@ p.terms-txt a,
   padding-bottom: 50px;
 }
 
+#alimentacao {
+  position: relative;
+  background-image: url(../images/alimentacao_banner.jpg);
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
+#varejo{
+  position: relative;
+  background-image: url(../images/alimentacao/hero-9.jpg);
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
 #hero-9-form {
   position: relative;
   z-index: 999;
