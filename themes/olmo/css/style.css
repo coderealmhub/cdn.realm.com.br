@@ -2480,6 +2480,14 @@ p.terms-txt a,
   padding: 8px 0 8px 8px;
 }
 
+.wsmenu > .wsmenu-list > li > ul.sub-menu > li > a span {
+  color: #ff523d;
+  font-size: 0.6rem;
+  position: relative;
+  top: -8px;
+  left: 1px;
+}
+
 /*------------------------------------------*/
 /*   HALFMENU
 /*------------------------------------------*/
@@ -3174,7 +3182,7 @@ p.terms-txt a,
 
 #varejo{
   position: relative;
-  background-image: url(../images/varejo_banner.jpg);
+  background-image: url(../images/alimentacao_banner.jpg);
   padding-top: 180px;
   padding-bottom: 50px;
 }
