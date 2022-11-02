@@ -2972,14 +2972,7 @@ p.terms-txt a,
 
 #hero-4 {
   position: relative;
-  background-image: url(../images/hero-4.jpg);
-  padding-top: 160px;
-  padding-bottom: 50px;
-}
-
-#hero-4-parceiros {
-  position: relative;
-  background-image: url(../images/hero-4.jpg);
+  background-image: url(../images/cbr/parceiros/bg.jpg);
   padding-top: 160px;
   padding-bottom: 50px;
 }
