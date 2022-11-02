@@ -3190,6 +3190,13 @@ p.terms-txt a,
   padding-bottom: 50px;
 }
 
+#cbr-r {
+  position: relative;
+  background-image: url(/cbr/img/cbr_banner.jpg);
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
 #varejo{
   position: relative;
   background-image: url(../images/alimentacao_banner.jpg);
