@@ -34,15 +34,7 @@
 .wsmenu .cl {
   clear: both;
 }
-/*
-.wsmenu img,
-object,
-embed,
-video {
-  border: 0 none;
-  max-width: 100%;
-}
-*/
+
 .wsmenu img {
   border: 0 none;
   max-width: 100%;
@@ -171,11 +163,6 @@ video {
   color: #333;
 }
 
-/*
-.wsmenu > .wsmenu-list > li:last-child > a {
-  border-right: 0px;
-}
-*/
 .wsmenu > .wsmenu-list > li:hover > a {
   color: #f0f0f0;
 }
@@ -366,13 +353,8 @@ video {
   margin: 0px;
   padding: 0px;
   display: block;
-  /*border-bottom: 1px dashed #c0c0c0;*/
 }
-/*
-.wsmenu > .wsmenu-list > li > ul.sub-menu > li:last-child {
-  border-bottom: none;
-}
-*/
+
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a {
   position: relative;
   background-image: none;  
@@ -548,16 +530,7 @@ video {
 .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu {
   padding: 20px 20px;
 }
-/*
-.wsmenu > .wsmenu-list > li > .wsmegamenu .title {
-  padding: 9px 5px 9px 0px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0px 0px 7px 0px;
-  text-align: left;
-  height: 39px;
-}
-*/
+
 .wsmenu > .wsmenu-list > li > .wsmegamenu .carousel-control-next {
   opacity: 0.8;
 }
@@ -777,6 +750,22 @@ video {
 
 /* ================== Mobile Base CSS ================== */
 
+html {
+  overflow: hidden;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body.wsactive {
+  overflow: hidden;
+}
+
 /* ================== Mobile Main Menu CSS ================== */
 
 .desktoplogo {
@@ -802,13 +791,9 @@ video {
 .wsmenu > .wsmenu-list {
   height: auto;
   min-height: 100%;
-  width: 240px;
-  width: 300px;
   width: 350px;
   background: #fff;
   padding-bottom: 0;
-  margin-right: -240px;
-  margin-right: -300px;
   margin-right: -350px;
   display: block;
   text-align: center;
@@ -916,7 +901,6 @@ video {
 
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a:hover {
   background-color: #e7e7e7;
-  1color: #666666;
   text-decoration: underline;
 }
 
@@ -1133,7 +1117,6 @@ video {
   right: 0;
   z-index: 10002;
   height: 54px;
-  /*background-color: #eaecf0;*/
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -1275,7 +1258,6 @@ video {
 
 .overlapblackbg {
   left: 0;
-  width: calc(100% - 240px);
   width: calc(100% - 350px);
   height: 100vh;
   min-height: 100%;
@@ -1294,6 +1276,7 @@ video {
   -moz-transition: opacity 1.5s ease-in-out;
   -ms-transition: opacity 1.5s ease-in-out;
   -o-transition: opacity 1.5s ease-in-out;
+  z-index: 8888!important;
 }
 
 .wsmenucontainer {
@@ -1305,7 +1288,6 @@ video {
 }
 
 .wsactive .wsmenucontainer {
-  margin-right: 240px;
   margin-right: 300px;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;

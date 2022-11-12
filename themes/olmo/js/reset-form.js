@@ -3,19 +3,11 @@ $(document).ready(function() {
 
     "use strict";
     
-    $(".request-form").submit(function(e) {
+    $(".reset-password-form").submit(function(e) {
         e.preventDefault();
-        var name = $(".name");
         var email = $(".email");
         var flag = false;
-        if (name.val() == "") {
-            name.closest(".form-control").addClass("error");
-            name.focus();
-            flag = false;
-            return false;
-        } else {
-            name.closest(".form-control").removeClass("error").addClass("success");
-        } if (email.val() == "") {
+        if (email.val() == "") {
             email.closest(".form-control").addClass("error");
             email.focus();
             flag = false;
@@ -24,19 +16,19 @@ $(document).ready(function() {
             email.closest(".form-control").removeClass("error").addClass("success");
             flag = true;
         }
-        var dataString = "name=" + name.val() + "&email=" + email.val();
-        $(".loading").fadeIn("slow").html("Carregando...");
+        var dataString = "&email=" + email.val();
+        $(".loading").fadeIn("slow").html("Please wait a minute...");
         $.ajax({
             type: "POST",
             data: dataString,
-            url: "php/requestForm.php",
+            url: "php/resetForm.php",
             cache: false,
             success: function (d) {
                 $(".form-control").removeClass("success");
 					if(d == 'success') // Message Sent? Show the 'Thank You' message and hide the form
-						$('.loading').fadeIn('slow').html('<font color="#48af4b">Mensagem enviada.</font>').delay(3000).fadeOut('slow');
+						$('.loading').fadeIn('slow').html('<font color="#48af4b">Check your email inbox.</font>').delay(3000).fadeOut('slow');
 					else
-						$('.loading').fadeIn('slow').html('<font color="#ff5607">Falha ao enviar mensagem.</font>').delay(3000).fadeOut('slow');
+						$('.loading').fadeIn('slow').html('<font color="#ff5607">Mail not sent.</font>').delay(3000).fadeOut('slow');
 
 								  }
         });

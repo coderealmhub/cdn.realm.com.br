@@ -47,6 +47,30 @@
 
 
 		/*----------------------------------------------------*/
+		/*	Mobile Menu Toggle
+		/*----------------------------------------------------*/
+
+		if ( $(window).outerWidth() < 992 ) {
+			$('.wsmenu-list li.nl-simple, .wsmegamenu li, .sub-menu li').on('click', function() {				
+				 $('body').removeClass("wsactive");	
+				 $('.sub-menu').slideUp('slow');
+     			 $('.wsmegamenu').slideUp('slow');	
+     			 $('.wsmenu-click').removeClass("ws-activearrow");
+        		 $('.wsmenu-click02 > i').removeClass("wsmenu-rotate");
+			});
+		}
+
+		if ( $(window).outerWidth() < 992 ) {
+			$('.wsanimated-arrow').on('click', function() {				
+				 $('.sub-menu').slideUp('slow');
+     			 $('.wsmegamenu').slideUp('slow');	
+     			 $('.wsmenu-click').removeClass("ws-activearrow");
+        		 $('.wsmenu-click02 > i').removeClass("wsmenu-rotate");
+			});
+		}
+
+
+		/*----------------------------------------------------*/
 		/*	ScrollUp
 		/*----------------------------------------------------*/
 		
@@ -124,6 +148,45 @@
 
 
 		/*----------------------------------------------------*/
+		/*	Masonry Grid
+		/*----------------------------------------------------*/
+
+		$('.grid-loaded').imagesLoaded(function () {
+
+	        // filter items on button click
+	        $('.masonry-filter').on('click', 'button', function () {
+	            var filterValue = $(this).attr('data-filter');
+	            $grid.isotope({
+	              filter: filterValue
+	            });
+	        });
+
+	        // change is-checked class on buttons
+	        $('.masonry-filter button').on('click', function () {
+	            $('.masonry-filter button').removeClass('is-checked');
+	            $(this).addClass('is-checked');
+	            var selector = $(this).attr('data-filter');
+	            $grid.isotope({
+	              filter: selector
+	            });
+	            return false;
+	        });
+
+	        // init Isotope
+	        var $grid = $('.masonry-wrap').isotope({
+	            itemSelector: '.masonry-image',
+	            percentPosition: true,
+	            transitionDuration: '0.7s',
+	            masonry: {
+	              // use outer width of grid-sizer for columnWidth
+	              columnWidth: '.masonry-image',
+	            }
+	        });
+	        
+	    });
+
+
+		/*----------------------------------------------------*/
 		/*	Accordion
 		/*----------------------------------------------------*/
 
@@ -171,7 +234,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/Y9hzSg47x68'				
+							src: 'https://www.youtube.com/embed/Y9hzSg47x68'					
 								}
 							}
 						}		  		  
@@ -188,7 +251,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/Y9hzSg47x68'					
+							src: 'https://www.youtube.com/embed/Y9hzSg47x68'							
 								}
 							}
 						}		  		  
@@ -413,6 +476,112 @@
 							}, 
 						}
 		});	
+
+
+		/*----------------------------------------------------*/
+	    /*  Sign In Form Validation
+	    /*----------------------------------------------------*/
+	    
+	    $(".sign-in-form").validate({
+	        rules:{ 
+	                password:{
+	                    required: true,
+	                    minlength: 2,
+	                    maxlength: 16,
+	                },
+	                email:{
+	                    required: true,
+	                    email: true,
+	                    }
+	                },
+	                messages:{
+	                        password:{
+	                            required: "Please enter no less than (2) characters"
+	                        }, 
+	                        email:{
+	                            required: "Please enter valid email address",
+	                            email: "Your email address must be in the format of name@domain.com"
+	                        }, 
+	                    }
+	    });
+
+
+	    /*----------------------------------------------------*/
+	    /*  Sign Up Form Validation
+	    /*----------------------------------------------------*/
+	    
+	    $(".sign-up-form").validate({
+	        rules:{ 
+	                name:{
+	                    required: true,
+	                    minlength: 2,
+	                    maxlength: 16,
+	                },
+	                password:{
+	                    required: true,
+	                    minlength: 2,
+	                    maxlength: 16,
+	                },
+	                email:{
+	                    required: true,
+	                    email: true,
+	                    }
+	                },
+	                messages:{
+	                        name:{
+	                            required: "Please enter no less than (2) characters"
+	                        },
+	                        password:{
+	                            required: "Please enter no less than (2) characters"
+	                        }, 
+	                        email:{
+	                            required: "Please enter valid email address",
+	                            email: "Your email address must be in the format of name@domain.com"
+	                        }, 
+	                    }
+	    });
+
+
+	    /*----------------------------------------------------*/
+		/*	Reset Form Validation
+		/*----------------------------------------------------*/
+		
+		$(".reset-password-form").validate({
+			rules:{ 
+					email:{
+						required: true,
+						email: true,
+					},
+					messages:{
+							email:{
+								required: "We need your email address to contact you",
+								email: "Your email address must be in the format of name@domain.com"
+							}, 
+						}
+			}
+		});
+
+
+		/*----------------------------------------------------*/
+		/*	Show Password
+		/*----------------------------------------------------*/
+
+	    var showPass = 0;
+	    $('.btn-show-pass').on('click', function(){
+	        if(showPass == 0) {
+	            $(this).next('input').attr('type','text');
+	            $(this).find('span.eye-pass').removeClass('flaticon-visible');
+	            $(this).find('span.eye-pass').addClass('flaticon-hidden');
+	            showPass = 1;
+	        }
+	        else {
+	            $(this).next('input').attr('type','password');
+	            $(this).find('span.eye-pass').addClass('flaticon-visible');
+	            $(this).find('span.eye-pass').removeClass('flaticon-hidden');
+	            showPass = 0;
+	        }
+	        
+	    });
 
 
 		/*----------------------------------------------------*/
