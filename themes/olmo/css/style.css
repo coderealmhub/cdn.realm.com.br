@@ -2576,7 +2576,14 @@ p.terms-txt a,
   padding: 8px 0;
   transition: all 0.3s ease-in-out;
 }
-
+.wsmenu > .wsmenu-list > li > .wsmegamenu.w-75 ul.link-list > li >a span,
+.wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu ul.link-list > li > a span  {
+  color: #ff523d;
+  font-size: 0.6rem;
+  position: relative;
+  top: -8px;
+  left: 1px;
+}
 .rtl-direction .wsmenu > .wsmenu-list > li > .wsmegamenu.w-75 ul.link-list > li > a,
 .rtl-direction .wsmenu > .wsmenu-list > li > .wsmegamenu.halfmenu ul.link-list > li > a {
   font-size: 19px;
