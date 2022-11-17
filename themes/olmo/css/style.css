@@ -838,6 +838,18 @@ ol.digit-list p {
   border-color: #0f53fa!important;
 }
 
+.btn-tra-orange, 
+.scroll .btn-tra-orange, 
+.white-color .btn-tra-orange,
+.tra-orange-hover:hover, 
+.scroll .tra-orange-hover:hover, 
+.white-color .tra-orange-hover:hover {
+  color: #ff7c17!important;
+  background-color: transparent!important;
+  border-color: #ff7c17!important;
+}
+
+
 .btn-tra-blue, 
 .scroll .btn-tra-blue, 
 .white-color .btn-tra-blue,
@@ -891,6 +903,13 @@ ol.digit-list p {
   color: #62147e!important;
   background-color: transparent!important;
   border-color: #62147e!important;
+}
+
+.btn-orange, 
+.white-color .btn-orange {
+  color: #FFF;
+  background-color: #ff7c17;
+  border-color: #ff7c17!important;
 }
 
 .btn-orange-red, 
