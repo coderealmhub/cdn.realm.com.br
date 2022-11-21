@@ -223,6 +223,19 @@
 						}		  		  
 		});
 
+		$('.video-cardapio').magnificPopup({
+			type: 'iframe',		  	  
+			iframe: {
+				patterns: {
+					youtube: {			   
+						index: 'youtube.com',
+						src: 'https://www.youtube.com/embed/ovpXBAxZ-Eo'				
+							}
+						}
+					}		  		  
+	});
+
+
 
 		/*----------------------------------------------------*/
 		/*	Video Link #2 Lightbox
