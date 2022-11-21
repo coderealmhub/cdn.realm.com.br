@@ -223,7 +223,7 @@
 						}		  		  
 		});
 
-		$('.video-cardapio').magnificPopup({
+		$('.video-popup').magnificPopup({
 			type: 'iframe',		  	  
 			iframe: {
 				patterns: {
