@@ -2940,6 +2940,12 @@ p.terms-txt a,
   padding-top: 160px;
 }
 
+#deliver {
+  position: relative;
+  background-image: url(../images/bg-deliver.jpg);
+  padding-top: 160px;
+}
+
 .hero-3-txt {
   margin-top: -30px;
 }
