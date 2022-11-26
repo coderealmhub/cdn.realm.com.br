@@ -780,6 +780,13 @@ ol.digit-list p {
   color: #1d293f!important;
 }
 
+.btn-white-orange, 
+.white-orange-color .btn-white-orange {
+  color: #ff7c17;
+  background-color: #fff;
+  border-color: #fff!important;
+}
+
 .btn-white, 
 .white-color .btn-white {
   color: #1d293f;
@@ -2875,9 +2882,11 @@ p.terms-txt a,
 #hero-1 {
   position: relative;
   z-index: 3;
-  background-image: url(../images/hero-1.jpg);
+  background-image: url(../images/bg-deliver.jpg);
   padding-top: 140px;
   padding-bottom: 100px;
+
+  
 }
 
 .hero-1-txt h2 {
@@ -3074,9 +3083,16 @@ p.terms-txt a,
 
 #hero-6 {
   position: relative;
-  background-image: linear-gradient(180deg, #dde6f1 0%, #fbfbfd 100%);
+  background-image: url(../images/hero-2.jpg);
   padding-top: 150px;
   padding-bottom: 100px;
+
+  /*
+    position: relative;
+  z-index: 3;
+  background-image: url(../images/hero-2.jpg);
+  padding-top: 150px;
+  margin-bottom: 50px;*/
 }
 
 .hero-6-txt {
@@ -3181,6 +3197,14 @@ p.terms-txt a,
   padding-bottom: 50px;
 }
 
+#estetica {
+  position: relative;
+  background-image: url(../images/alimentacao_banner.jpg);
+  background-color: orange;
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+
 #cbr-r {
   position: relative;
   background-image: url(/cbr/img/cbr_banner.jpg);
@@ -3227,10 +3251,18 @@ p.terms-txt a,
 
 #hero-10 {
   position: relative;
+  background-image: url(../images/ads/bg-ads.jpg);
+  padding-top: 170px;
+  margin-bottom: 100px;
+}
+
+#hero-101 {
+  position: relative;
   background-image: url(../images/hero-10.jpg);
   padding-top: 170px;
   margin-bottom: 100px;
 }
+
 
 .hero-10-txt {
   padding: 0 8%;
