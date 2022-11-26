@@ -154,12 +154,41 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/b6VzcBhg9LE'				
+							src: 'https://www.youtube.com/embed/Y9hzSg47x68'				
 								}
 							}
 						}		  		  
 		});
 		
+	/*----------------------------------------------------*/
+		/*	Video Afiliados #1 Lightbox
+		/*----------------------------------------------------*/
+		
+		$('.video-afiliados1').magnificPopup({
+			type: 'iframe',		  	  
+			iframe: {
+				patterns: {
+					youtube: {			   
+						index: 'youtube.com',
+						src: 'https://www.youtube.com/embed/ovpXBAxZ-Eo'				
+							}
+						}
+					}		  		  
+	});
+
+	$('.video-afiliados2').magnificPopup({
+		type: 'iframe',		  	  
+		iframe: {
+			patterns: {
+				youtube: {			   
+					index: 'youtube.com',
+					src: 'https://www.youtube.com/embed/Y9hzSg47x68'				
+						}
+					}
+				}		  		  
+});
+	
+
 		/*----------------------------------------------------*/
 		/*	Video Link #1 Lightbox
 		/*----------------------------------------------------*/
@@ -187,7 +216,7 @@
 					patterns: {
 						youtube: {			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/7e90gBu4pas'				
+							src: 'https://www.youtube.com/embed/Y9hzSg47x68'				
 								}
 							}
 						}		  		  

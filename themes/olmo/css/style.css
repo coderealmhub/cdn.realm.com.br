@@ -783,8 +783,8 @@ ol.digit-list p {
 .btn-white-orange, 
 .white-orange-color .btn-white-orange {
   color: #ff7c17;
-  background-color: #fff;
-  border-color: #fff!important;
+  background-color: #ffff;
+  border-color: #ffff!important;
 }
 
 .btn-white, 
@@ -3250,6 +3250,13 @@ p.terms-txt a,
 /*------------------------------------------*/
 
 #hero-10 {
+  position: relative;
+  background-image: url(../images/ads/bg-ads.jpg);
+  padding-top: 170px;
+  margin-bottom: 100px;
+}
+
+#ads {
   position: relative;
   background-image: url(../images/ads/bg-ads.jpg);
   padding-top: 170px;
