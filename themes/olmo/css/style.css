@@ -3263,6 +3263,13 @@ p.terms-txt a,
   margin-bottom: 100px;
 }
 
+#ads-home {
+  position: relative;
+  background-image: url(../images/ads/bg-ads.jpg);
+  padding-top: 170px;
+  margin-bottom: 100px;
+}
+
 #hero-10-1 {
   position: relative;
   background-image: url(../images/hero-10.jpg);
