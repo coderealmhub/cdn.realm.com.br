@@ -3081,7 +3081,8 @@ p.terms-txt a,
 
 #hero-6 {
   position: relative;
-  background-image: url(../images/hero-2.jpg);
+  /*background-image: url(../images/hero-2.jpg);*/
+  background-image: linear-gradient(180deg, #dde6f1 0%, #fbfbfd 100%);
   padding-top: 150px;
   padding-bottom: 100px;
 
