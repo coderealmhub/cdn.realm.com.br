@@ -3087,6 +3087,13 @@ p.terms-txt a,
   padding-bottom: 100px;
 }
 
+#realm-bi {
+  position: relative;
+  background-image: linear-gradient(180deg, #dde6f1 0%, #fbfbfd 100%);
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
 .hero-6-txt {
   padding-left: 20px;
   padding-right: 30px;
